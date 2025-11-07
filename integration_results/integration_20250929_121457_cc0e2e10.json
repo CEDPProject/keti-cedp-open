@@ -1,0 +1,177 @@
+{
+  "data1": {
+    "bucket": "farm_protectedHorticulture_westernVegetables_paprika",
+    "measurement": "environment_knu_n",
+    "tagKey": "ZN_ID",
+    "tagValue": "1구역"
+  },
+  "data2": {
+    "bucket": "farm_protectedHorticulture_vegetables_cucumber",
+    "measurement": "environment_knu_sgh",
+    "tagKey": "FARM_ID_CODE",
+    "tagValue": "A00259"
+  },
+  "selected_fields": [
+    "EXT_TMP",
+    "EXT_WIND_DIRECT",
+    "EXT_WIND_SPEED",
+    "INT_CO2",
+    "INT_REL_HD",
+    "INT_TMP",
+    "MAX_EXT_TMP",
+    "MIN_EXT_TMP",
+    "MID_INT_TMP",
+    "SLR_RAD"
+  ],
+  "integration_result": {
+    "message": "데이터 통합이 완료되었습니다.",
+    "request_id": "6f0ebf14-ac7c-45c4-a239-1c8fc36f9f48",
+    "result": {
+      "base_data_info": {
+        "bucket": "environment_knu_n",
+        "features": [
+          "EXT_TMP",
+          "EXT_WIND_DIRECT",
+          "EXT_WIND_SPEED",
+          "INT_CO2",
+          "INT_REL_HD",
+          "INT_TMP",
+          "MAX_EXT_TMP",
+          "MIN_EXT_TMP",
+          "MID_INT_TMP",
+          "SLR_RAD"
+        ],
+        "measurement": "farm_protectedHorticulture_westernVegetables_paprika",
+        "tags": {
+          "ZN_ID": "1구역"
+        }
+      },
+      "common_features": [],
+      "dataset_counts": {
+        "farm_protectedHorticulture_vegetables_cucumber_environment_knu_sgh": 282240,
+        "farm_protectedHorticulture_westernVegetables_paprika_environment_knu_n": 49497
+      },
+      "integrated_stats": {
+        "farm_protectedHorticulture_vegetables_cucumber_environment_knu_sgh": 282240,
+        "farm_protectedHorticulture_westernVegetables_paprika_environment_knu_n": 49497
+      },
+      "integration_frequency": "240T",
+      "original_datasets": 2,
+      "period": "data1",
+      "processing_notes": [
+        "Successfully processed 2 datasets",
+        "Total rows: 331737",
+        "Valid features used: All available",
+        "Requested features: 20",
+        "Valid features: All"
+      ],
+      "requested_features": [
+        "EXT_TMP",
+        "EXT_WIND_DIRECT",
+        "EXT_WIND_SPEED",
+        "INT_CO2",
+        "INT_REL_HD",
+        "INT_TMP",
+        "MAX_EXT_TMP",
+        "MIN_EXT_TMP",
+        "MID_INT_TMP",
+        "SLR_RAD",
+        "EXT_TMP",
+        "EXT_WIND_DIRECT",
+        "EXT_WIND_SPEED",
+        "INT_CO2",
+        "INT_REL_HD",
+        "INT_TMP",
+        "MAX_EXT_TMP",
+        "MIN_EXT_TMP",
+        "MID_INT_TMP",
+        "SLR_RAD"
+      ],
+      "selected_data_info": {
+        "bucket": "environment_knu_sgh",
+        "features": [
+          "EXT_TMP",
+          "EXT_WIND_DIRECT",
+          "EXT_WIND_SPEED",
+          "INT_CO2",
+          "INT_REL_HD",
+          "INT_TMP",
+          "MAX_EXT_TMP",
+          "MIN_EXT_TMP",
+          "MID_INT_TMP",
+          "SLR_RAD"
+        ],
+        "measurement": "farm_protectedHorticulture_vegetables_cucumber",
+        "tags": {
+          "FARM_ID_CODE": "A00259"
+        }
+      },
+      "time_range": {
+        "end": "2022-10-25 23:59:59",
+        "start": "2021-07-01 00:00:00"
+      },
+      "total_original_rows": 331737,
+      "valid_features": []
+    },
+    "status": "success",
+    "summary": {
+      "base_data_info": {
+        "bucket": "farm_protectedHorticulture_westernVegetables_paprika",
+        "measurement": "environment_knu_n",
+        "tag_filter": "ZN_ID=1구역"
+      },
+      "dataset_details": [
+        {
+          "integrated_count": 49497,
+          "name": "farm_protectedHorticulture_westernVegetables_paprika_environment_knu_n",
+          "original_count": 49497,
+          "reduction_rate": 0
+        },
+        {
+          "integrated_count": 282240,
+          "name": "farm_protectedHorticulture_vegetables_cucumber_environment_knu_sgh",
+          "original_count": 282240,
+          "reduction_rate": 0
+        }
+      ],
+      "field_info": {
+        "field_count": 10,
+        "selected_fields": [
+          "EXT_TMP",
+          "EXT_WIND_DIRECT",
+          "EXT_WIND_SPEED",
+          "INT_CO2",
+          "INT_REL_HD",
+          "INT_TMP",
+          "MAX_EXT_TMP",
+          "MIN_EXT_TMP",
+          "MID_INT_TMP",
+          "SLR_RAD"
+        ]
+      },
+      "integration_period": {
+        "end_time": "2022-10-25",
+        "selected_period": "data1",
+        "start_time": "2021-07-01"
+      },
+      "processing_stats": {
+        "integration_frequency": "240T",
+        "original_datasets": 2,
+        "success": true,
+        "total_rows": 331737
+      },
+      "selected_data_info": {
+        "bucket": "farm_protectedHorticulture_vegetables_cucumber",
+        "measurement": "environment_knu_sgh",
+        "tag_filter": "FARM_ID_CODE=A00259"
+      }
+    },
+    "timestamp": "2025-09-29T12:10:15.066347"
+  },
+  "metadata": {
+    "save_id": "integration_20250929_121457_cc0e2e10",
+    "created_at": "2025-09-29T12:14:57.953997",
+    "data_version": "1.0",
+    "save_type": "integration_result"
+  }
+}
